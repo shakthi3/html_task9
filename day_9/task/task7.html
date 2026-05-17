@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Content Example</title>
+
+    <style>
+      body {
+        background-color: #f0fff0;
+        font-family: Garamond, serif;
+      }
+
+      .box::before {
+        content: "Content is the innermost part of the box";
+        color: white;
+        background-color: teal;
+        font-size: 28px;
+        font-family: sans-serif;
+        padding: 20px;
+        margin: 40px;
+        border: 5px solid orange;
+        display: inline-block;
+        border-radius: 15px;
+        box-shadow: 5px 5px 15px gray;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- 7. content: the actual text. -->
+    <div class="box"></div>
+  </body>
+</html>
